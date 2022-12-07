@@ -4,13 +4,13 @@
   <img src="./assets/dhikr.jpeg" width="700" title="hover text">
 </p>
 
-# 📖 [My-Portfolio] <a name="about-project"></a>
+# 📖 [Dhikr-app] <a name="about-project"></a>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://my-portfolio-iota-beryl.vercel.app/index.html)
+- [Live Demo Link](https://dhikr-counter-bice.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
