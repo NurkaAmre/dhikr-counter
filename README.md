@@ -1,75 +1,23 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Project Name
+<p align="center">
+  <img src="./assets/dhikr.jpeg" width="700" title="hover text">
+</p>
 
-> Description the project.
+# 📖 [My-Portfolio] <a name="about-project"></a>
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## Built With
+> Add a link to your deployed project.
 
-- Major languages
-- Frameworks
-- Technologies used
+- [Live Demo Link](https://my-portfolio-iota-beryl.vercel.app/index.html)
 
-## Live Demo (if available)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[Live Demo Link](https://livedemo.com)
+## 👥 Author <a name="authors"></a>
 
+👤 **Nurgul**
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+- GitHub: [@githubhandle](https://github.com/NurkaAmre)
+- Twitter: [@twitterhandle](https://twitter.com/AmreNurgul)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/amre-nurgul/)
