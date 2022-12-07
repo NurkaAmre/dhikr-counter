@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background: url(./assets/88787.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+    color: #fff;
+    font-family: 'La Belle Aurore', cursive;
+    min-height: 100vh;
+}
+
+header {
+    font-size: 1.5rem;
+    background: rgba(19, 28, 39, 0.8);
+    width: 40%;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 5rem;
+    text-align: center;
+    margin-left: 40%;
+}
+
+header, form {
+    /* background: linear-gradient(120deg, #f6d365, #fda085); */
+    min-height: 10vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    margin-left: 35%;
+    width: 50%;
+    background: rgba(209, 209, 182, 0.8);
+
+}
+input {
+    font-family: 'La Belle Aurore', cursive;
+}
+
+form input,
+form button {
+    padding: 0,5rem;
+    font-size: 2rem;
+    border: none;
+    background: #fff;
+}
+input:hover {
+    border: 3px solid rgb(37, 163, 165);
+}
+input:focus {
+    outline:none;
+}
+
+form button {
+    color: #1d5c6d;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+form button:hover {
+    background:  #1db6d5;
+    color: #fff;
+}
+.todo-container {
+    /* background: linear-gradient(120deg, #f6d365, #fda085); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+}
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+.todo {
+    margin: 0.5rem;
+    background: #fff;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.todo li {
+    flex: 1;
+}
+.complete-btn,
+.trash-btn {
+    background-color: #1f938b;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.complete-btn {
+    background: rgb(13, 199, 168);
+}
+.todo-item {
+    padding: 0rem 0.5rem;
+}
+.fa-trash,
+.fa-check {
+    pointer-events: none;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0 ;
+}
+.cloud {
+    position: absolute;
+    top: 2%;
+    right: 90%;
+    height: 10%;
+    width: 10%;
+}
+
+.moving-cloud-1 {
+    animation: cloudAnimation 3s infinite alternate ease-in-out;
+}
+
+.moving-cloud-2 {
+    top: 10%;
+    z-index: -1;
+    opacity: 0.5;
+    animation: cloudAnimation 3.5s infinite alternate ease-in-out;
+}
+
+@keyframes cloudAnimation {
+    from {
+        transform: translate(10%, -15%);
+    }
+    to {
+        transform: translate(0%, 0%);
+    }
+}
