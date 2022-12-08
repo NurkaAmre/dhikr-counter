@@ -20,7 +20,7 @@ header {
     width: 40%;
     color: #fff;
     border-radius: 20px;
-    margin-top: 5rem;
+    margin: 5rem 0rem;
     text-align: center;
     margin-left: 40%;
 }
@@ -62,9 +62,10 @@ form button {
     background: #fff;
     cursor: pointer;
     transition: all 0.3s ease;
+    padding: 0.6rem;
 }
 form button:hover {
-    background:  #1db6d5;
+    background:  #147661;
     color: #fff;
 }
 .todo-container {
@@ -93,7 +94,7 @@ form button:hover {
 }
 .complete-btn,
 .trash-btn {
-    background-color: #1f938b;
+    background-color:#1d5c6d;
     color: #fff;
     border: none;
     padding: 1rem;
@@ -101,7 +102,7 @@ form button:hover {
     cursor: pointer;
 }
 .complete-btn {
-    background: rgb(13, 199, 168);
+    background: rgba(35, 149, 194, 0.512);
 }
 .todo-item {
     padding: 0rem 0.5rem;
@@ -144,4 +145,33 @@ form button:hover {
     to {
         transform: translate(0%, 0%);
     }
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+.select {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+select {
+    color: #1d5c6d;
+    width: 10rem;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.select::after {
+    content: "\25BC";
+    position: absolute;
+    background: #1d5c6d;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    pointer-events: none;
 }
